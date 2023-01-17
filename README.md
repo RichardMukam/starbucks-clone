@@ -1,1 +1,1 @@
-#### starbucks, but with a little bit of SASS
+#### starbucks, but with a little bit of SASS (**unofficial** of course)

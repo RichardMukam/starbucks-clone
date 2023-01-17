@@ -1,0 +1,28 @@
+{
+  "name": "starbucks-clone",
+  "version": "1.0.0",
+  "description": "A clone of the Starbucks Rewards Web Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardMukam/starbucks-clone.git"
+  },
+  "keywords": [
+    "starbucks",
+    "website",
+    "re-creation",
+    "clone"
+  ],
+  "author": "Richard Mukam Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardMukam/starbucks-clone/issues"
+  },
+  "homepage": "https://github.com/RichardMukam/starbucks-clone#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
