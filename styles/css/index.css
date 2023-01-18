@@ -1,17 +1,19 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @forward 'colors';
- *   | ^^^^^^^^^^^^^^^^^
- *   '
- *   styles/sass/index.scss 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @forward 'colors';\a   \2502  ^^^^^^^^^^^^^^^^^\a   \2575 \a   styles/sass/index.scss 1:1  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
+body {
+  color: black;
+  background-color: green;
 }
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=index.css.map */
