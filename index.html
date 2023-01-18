@@ -7,6 +7,7 @@
         <meta name="author" content="Richard Mukam Jr">
         <meta name="description" content="A clone of the starbucks rewards page, but with sass">
         <meta name="keywords" content="clone, unofficial starbucks, starbucks, coffee">
+        <script src="https://kit.fontawesome.com/54c851cdcf.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -25,9 +26,26 @@
                 <button>Sign in</button>
                 <button>Join now</button>
             </div>
-            <div>
-                <p>STARBUCKS </p>
+            <div id="rewards-bar">
+                <p>STARBUCKS <span><i class="fa-solid fa-registered"></i></span> REWARDS</p>
             </div>
         </header>
+        <main>
+            <section> <!-- use grid -->
+                <div id="free-coffee">
+                    <h2>FREE COFFEE</h2>
+                    <h2>IS A TAP AWAY</h2>
+                    <p>Join now to start earning Rewards.</p>
+                    <button>Join now</button>
+                    <p>Or <span>join in the app</span> for the best experience</p>
+                </div>
+                <div id="star-container">
+                    <i id="star" class="fa-regular fa-star"></i>
+                </div>
+            </section>
+            <section>
+                <h2>Getting started is easy</h2>
+            </section>
+        </main>
     </body>
 </html>
