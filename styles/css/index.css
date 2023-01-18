@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
 body {
-  color: black;
-  background-color: green;
+  background-color: white;
 }
 
 h1, h2, h3, p {
@@ -10,6 +9,7 @@ h1, h2, h3, p {
 
 html {
   scroll-behavior: smooth;
+  font-family: "Open Sans";
 }
 
 ul {
