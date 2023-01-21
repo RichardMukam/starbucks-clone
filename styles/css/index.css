@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
-body {
-  background-color: white;
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.25rem;
+}
+
+#left-section {
+  display: flex;
+  flex-direction: row;
+}
+#left-section img {
+  height: 48px;
+}
+#left-section .nav-links li {
+  display: inline-block;
 }
 
 #rewards-bar {
@@ -9,6 +24,17 @@ body {
 #rewards-bar p {
   font-weight: 700;
   color: white;
+}
+
+main {
+  position: relative;
+}
+
+#rewards-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 h1, h2, h3, p {

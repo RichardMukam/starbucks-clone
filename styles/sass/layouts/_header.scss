@@ -1,8 +1,35 @@
 @use '../abstracts' as abs;
 
-body
+header
 {
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.25rem;
+}
+
+#left-section
+{
+    display: flex;
+    flex-direction: row;
+    img
+    {
+        height: 48px;
+    }
+   
+    .nav-links
+    {
+        li
+        {
+            display: inline-block;
+        }
+    }
+}
+
+#right-section
+{
+
 }
 
 #rewards-bar
@@ -14,3 +41,4 @@ body
         color: white;
     }
 }
+
