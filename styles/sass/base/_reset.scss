@@ -1,13 +1,30 @@
 @use '../abstracts/fonts' as f;
-h1, h2, h3, p
+h1, h2, h3, p, a
 {
     margin: 0;
+    text-decoration: none;
+    
+
+    &:link
+    {
+        color: black;
+    }
+
+    &:visited
+    {
+        color: black;
+    }
 }
 
 html
 {
     scroll-behavior: smooth;
     font-family: f.$secondary-font;
+}
+
+body
+{
+    margin: 0;
 }
 
 ul

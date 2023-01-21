@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
 header {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 6.25rem;
@@ -9,13 +8,27 @@ header {
 
 #left-section {
   display: flex;
-  flex-direction: row;
+  padding-left: 2rem;
 }
 #left-section img {
-  height: 48px;
+  height: 3.2rem;
 }
 #left-section .nav-links li {
   display: inline-block;
+  padding-right: 1.7rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+#left-section .nav-links li a {
+  transition: all 0.15s;
+}
+#left-section .nav-links li a:hover {
+  color: #00754a;
+}
+
+#right-section {
+  display: flex;
 }
 
 #rewards-bar {
@@ -35,15 +48,27 @@ main {
   left: 0;
   right: 0;
   top: 0;
+  height: 3.1rem;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a {
   margin: 0;
+  text-decoration: none;
+}
+h1:link, h2:link, h3:link, p:link, a:link {
+  color: black;
+}
+h1:visited, h2:visited, h3:visited, p:visited, a:visited {
+  color: black;
 }
 
 html {
   scroll-behavior: smooth;
   font-family: "Helvetica";
+}
+
+body {
+  margin: 0;
 }
 
 ul {

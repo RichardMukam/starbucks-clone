@@ -3,7 +3,6 @@
 header
 {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 6.25rem;
@@ -12,10 +11,10 @@ header
 #left-section
 {
     display: flex;
-    flex-direction: row;
+    padding-left: 2rem;
     img
     {
-        height: 48px;
+        height: 3.2rem;
     }
    
     .nav-links
@@ -23,13 +22,25 @@ header
         li
         {
             display: inline-block;
+            padding-right: 1.7rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            a
+            {
+                transition: all 0.15s;
+                &:hover
+                {
+                    color: #00754a;
+                }
+            }
         }
     }
 }
 
 #right-section
 {
-
+    display: flex;
 }
 
 #rewards-bar
